@@ -42,47 +42,53 @@ body {
 .header div ul {
     list-style-type: none;
 }
-/* styles the ul under the div tag under header  */
 
+/* styles the ul under the div tag under header  */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* styles the a   */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* styles the p   */
 
 p {
     font-size: 16px;
 }
 
+/* styles the .hero an image and creates a contained box model   */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+
+/* defines float left class*/
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* defines float right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* defines content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Defines benefits class. Specifies box model and gives text a font + background color  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,54 +100,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Defines benefit-lead  */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* defines benefit-brand  */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* defines benefit-cost  */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* defines h3 under benefit-lead  */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* defines h3 under benefit-brand  */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* defines h3 under benefit-cost  */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* defines img under benefit-lead  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* defines img under benefit-brand  */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* defines img under benefit-cost  */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Defines .search-engine-optimization class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,6 +167,7 @@ p {
     color: #ffffff;
 }
 
+/* defines .online-reputation-management class  */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +177,7 @@ p {
     color: #ffffff;
 }
 
+/* Defines .social-media-marketing class  */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,33 +187,40 @@ p {
     color: #ffffff;
 }
 
+/* sets max height for .search-engine-optimization img  */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* sets max height for .online-reputation-management img  */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* sets max height for .social-media-marketing class  */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* sets margin and font for .search-engine-optimization h2  */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets margin and height for .online-reputation-management h2  */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets margin and height for .social-media-marketing h2  */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* defines the footer of the page  */
 .footer {
     padding: 30px;
     clear: both;
@@ -203,6 +228,7 @@ p {
     text-align: center;
 }
 
+/* defines footer's h2 for the bottem of the page  */
 .footer h2 {
     font-size: 20px;
 }
